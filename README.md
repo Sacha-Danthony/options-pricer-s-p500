@@ -57,4 +57,4 @@ jupyter notebook options_pricer.ipynb
 
 ## Auteur
 
-[Sacha Danthony] — Étudiant en Finance INSEEC Bachelor 3
+Sacha Danthony — Étudiant en Finance INSEEC Bachelor 3
