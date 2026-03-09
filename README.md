@@ -1,1 +1,1 @@
-# options-pricer-s-p500
+# options-pricer-sp500
