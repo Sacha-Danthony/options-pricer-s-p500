@@ -8,7 +8,7 @@ Pricing d'options européennes sur le S&P500 en Python — comparaison Black-Sch
 - Black-Scholes : pricing analytique d'options call/put européennes
 - Grecques : Delta, Gamma, Vega, Theta, Rho
 - Monte Carlo : simulation de 50 000 trajectoires et convergence vers B&S
-- **Parité Call-Put: validation mathématique du pricer
+- Parité Call-Put: validation mathématique du pricer
 
 
 ##  Technologies
