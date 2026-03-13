@@ -29,13 +29,7 @@ analyse de la volatilité implicite sur données réelles.
 ## Paramètres utilisés
  Paramètre  Valeur 
 
- Sous-jacent : S&P500 
- Prix actuel (S) : 6740$ 
- Strike (K) : 6740$ 
- Maturité (T) : 1 an 
- Taux sans risque (r) : 3.75% 
- Volatilité (σ) : 25%
- Données options réelles : SPY via yfinance 
+ Sous-jacent : S&P500, Prix actuel (S) : 6740$, Strike (K) : 6740$, Maturité (T) : 1 an, Taux sans risque (r) : 3.75%, Volatilité (σ) : 25%, Données options réelles : SPY via yfinance 
 
 ## Conclusions
 * BS suppose une volatilité constante — le smile prouve que c'est faux
