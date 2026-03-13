@@ -1,42 +1,32 @@
 # Options Pricer — S&P500 🇺🇸
-
-Pricing d'options européennes sur le S&P500 en Python — comparaison Black-Scholes vs Monte Carlo, calcul des grecques et analyse de sensibilité.
-
+Pricing d'options européennes sur le S&P500 en Python — 
+Black-Scholes, Monte Carlo, calcul des grecques et 
+analyse de la volatilité implicite sur données réelles.
 
 ## Concepts couverts
+* Black-Scholes : pricing analytique d'options call/put européennes
+* Grecques : Delta, Gamma, Vega, Theta, Rho
+* Monte Carlo : simulation de 50 000 trajectoires et convergence vers BS
+* Parité Call-Put : validation mathématique du pricer
+* Volatilité implicite : calcul par inversion numérique de BS (Brentq)
+* Smile de volatilité : analyse du skew sur données réelles SPY
 
-- Black-Scholes : pricing analytique d'options call/put européennes
-- Grecques : Delta, Gamma, Vega, Theta, Rho
-- Monte Carlo : simulation de 50 000 trajectoires et convergence vers B&S
-- Parité Call-Put: validation mathématique du pricer
-
-
-##  Technologies
-
-- Python 3
-- NumPy
-- SciPy
-- Matplotlib
-
+## Technologies
+* Python 3
+* NumPy
+* SciPy
+* Matplotlib
+* yfinance
+* Pandas
 
 ## Résultats
-
-### Prix Call/Put en fonction du sous-jacent
-![call_put](images/call_put.png)
-
-### Delta en fonction du sous-jacent
-![delta](images/delta.png)
-
-### Convergence Monte Carlo vs Black-Scholes
-![convergence](images/convergence.png)
-
-### Grecques (Gamma, Vega, Theta)
-![greeks](images/greeks.png)
-
-
+* Prix Call/Put en fonction du sous-jacent
+* Delta en fonction du sous-jacent
+* Convergence Monte Carlo vs Black-Scholes
+* Grecques (Gamma, Vega, Theta)
+* Smile de volatilité implicite — Calls vs Puts (données réelles SPY)
 
 ## Paramètres utilisés
-
  Paramètre  Valeur 
 
  Sous-jacent : S&P500 
@@ -44,17 +34,17 @@ Pricing d'options européennes sur le S&P500 en Python — comparaison Black-Sch
  Strike (K) : 6740$ 
  Maturité (T) : 1 an 
  Taux sans risque (r) : 3.75% 
- Volatilité (σ) : 25% 
+ Volatilité (σ) : 25%
+ Données options réelles : SPY via yfinance 
 
----
+## Conclusions
+* BS suppose une volatilité constante — le smile prouve que c'est faux
+* Le skew montre que le marché surpaye la protection contre les baisses
+* BS sous-estime le risque de queue sur les strikes bas
 
 ## Lancer le projet
-```bash
-pip install numpy scipy matplotlib
+pip install numpy scipy matplotlib yfinance pandas
 jupyter notebook options_pricer.ipynb
-```
-
 
 ## Auteur
-
-Sacha Danthony — Étudiant en Finance INSEEC Bachelor 3
+Sacha Danthony — Étudiant en Finance INSEEC Bachelor 
