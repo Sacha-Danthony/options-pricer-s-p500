@@ -5,7 +5,7 @@ analyse de la volatilité implicite sur données réelles.
 
 ## Graphiques
 
-![Smile de volatilité implicite](Smile_de_volatilité_implicite.png)
+![Convergence Monte Carlo vers Black Scholes](convergence.png)
 
 ## Concepts couverts
 * Black-Scholes : pricing analytique d'options call/put européennes
