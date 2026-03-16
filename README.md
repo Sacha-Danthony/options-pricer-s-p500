@@ -35,6 +35,18 @@ analyse de la volatilité implicite sur données réelles.
 
  Sous-jacent : S&P500, Prix actuel (S) : 6740$, Strike (K) : 6740$, Maturité (T) : 1 an, Taux sans risque (r) : 3.75%, Volatilité (σ) : 25%, Données options réelles : SPY via yfinance 
 
+| Paramètre | Valeur | 
+|-----------|--------|
+| Sous-jacent | S&P500 | 
+| Prix actuel (S) | 6740$ | 
+| Strike (K) | 6740$ | 
+| Maturité (T) | 1 an | 
+| Taux sans risque (r) | 3.75% | 
+| Volatilité (σ) | 25% | 
+| Données options réelles | SPY via yfinance | 
+
+
+
 ## Conclusions
 * BS suppose une volatilité constante — le smile prouve que c'est faux
 * Le skew montre que le marché surpaye la protection contre les baisses
