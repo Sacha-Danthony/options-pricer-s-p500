@@ -31,9 +31,6 @@ analyse de la volatilité implicite sur données réelles.
 * Smile de volatilité implicite — Calls vs Puts (données réelles SPY)
 
 ## Paramètres utilisés
- Paramètre  Valeur 
-
- Sous-jacent : S&P500, Prix actuel (S) : 6740$, Strike (K) : 6740$, Maturité (T) : 1 an, Taux sans risque (r) : 3.75%, Volatilité (σ) : 25%, Données options réelles : SPY via yfinance 
 
 | Paramètre | Valeur | 
 |-----------|--------|
