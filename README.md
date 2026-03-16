@@ -3,6 +3,10 @@ Pricing d'options européennes sur le S&P500 en Python —
 Black-Scholes, Monte Carlo, calcul des grecques et 
 analyse de la volatilité implicite sur données réelles.
 
+## Graphiques
+
+![Smile de volatilité implicite](Smile_de_volatilité_implicite.png)
+
 ## Concepts couverts
 * Black-Scholes : pricing analytique d'options call/put européennes
 * Grecques : Delta, Gamma, Vega, Theta, Rho
