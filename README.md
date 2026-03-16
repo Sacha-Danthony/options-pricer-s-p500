@@ -5,7 +5,7 @@ analyse de la volatilité implicite sur données réelles.
 
 ## Graphiques
 
-![Convergence Monte Carlo vers Black Scholes](convergence.png)
+![convergence](convergence.png)
 
 ## Concepts couverts
 * Black-Scholes : pricing analytique d'options call/put européennes
